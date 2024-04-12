@@ -362,4 +362,12 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-IdentityServer/
+IdentityServer/MultiShop.IdentityServer/bin
+IdentityServer/MultiShop.IdentityServer/obj
+IdentityServer/MultiShop.IdentityServer/Quickstart
+IdentityServer/MultiShop.IdentityServer/Views
+IdentityServer/MultiShop.IdentityServer/wwwroot
+IdentityServer/MultiShop.IdentityServer/MultiShop.IdentityServer.csproj
+IdentityServer/MultiShop.IdentityServer/MultiShop.IdentityServer.csproj.user
+IdentityServer/MultiShop.IdentityServer/tempkey.jwk
+IdentityServer/MultiShop.IdentityServer/updateUI.ps1
