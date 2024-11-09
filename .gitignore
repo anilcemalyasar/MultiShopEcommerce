@@ -1,0 +1,75 @@
+# .NET
+*.dll
+*.exe
+*.obj
+*.pdb
+*.cache
+*.xml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.suo
+*.sln
+
+# Build Folders (you can keep bin if you'd like, to commit dlls or exe files)
+bin/
+obj/
+out/
+
+# NuGet Packages
+*.nupkg
+packages/
+# Uncomment if necessary however generally it will be regenerated when needed
+# project.lock.json
+# project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+.vs/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+[Bb]in
+[Oo]bj
+[Bb]ackup*/
+[Ll]og/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# IIS Logs
+logs/
+
+# Local history for Visual Studio
+.localhistory/
+
+# Linux and macOS files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+._.DS_Store
+.fseventsd
