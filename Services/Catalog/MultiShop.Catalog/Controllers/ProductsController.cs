@@ -44,7 +44,7 @@ namespace MultiShop.Catalog.Controllers
             return Ok(updateProductDto.ProductName + " isimli ürün başarıyla güncellendi!");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(string id)
         {
             await _productService.DeleteProductAsync(id);

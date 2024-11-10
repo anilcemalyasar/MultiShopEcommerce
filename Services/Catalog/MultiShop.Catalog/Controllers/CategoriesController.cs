@@ -44,7 +44,7 @@ namespace MultiShop.Catalog.Controllers
             return Ok(updateCategoryDto.CategoryName + "kategorisi başarıyla güncellendi!");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCategory(string id)
         {
             await _categoryService.DeleteCategoryAsync(id);
