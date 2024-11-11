@@ -32,7 +32,7 @@ namespace MultiShop.Catalog.Services.ProductDetailServices
 
         public async Task<List<ResultProductDetailDto>> GetAllProductDetailsAsync()
         {
-            var values = await _productDetailCollection.Find(x => true).ToListAsync();
+            var values = await _productDetailCollection.Find<ProductDetail>(x => true).ToListAsync();
             return _mapper.Map<List<ResultProductDetailDto>>(values);
         }
 

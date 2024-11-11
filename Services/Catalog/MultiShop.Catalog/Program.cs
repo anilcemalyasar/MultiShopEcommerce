@@ -1,6 +1,7 @@
 using Microsoft.Extensions.Options;
 using MultiShop.Catalog.Controllers;
 using MultiShop.Catalog.Services.CategoryServices;
+using MultiShop.Catalog.Services.ProductDetailServices;
 using MultiShop.Catalog.Services.ProductServices;
 using MultiShop.Catalog.Settings;
 using System.Reflection;
@@ -9,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IProductDetailService, ProductDetailService>();
 
 // registration of AutoMapper instance
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
